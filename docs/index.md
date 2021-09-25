@@ -20,7 +20,7 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 
 > <a target="_blank" href="https://www.jetbrains.com/idea/download/#section=windows">Ideac (Jetbrain)</a>
 
-![Emmylua](https://github.com/hunzsig-docs/h-lua/raw/main/img/emmylua.png)
+![Emmylua](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/emmylua.png)
 
 ### 克隆（下载）项目
 
