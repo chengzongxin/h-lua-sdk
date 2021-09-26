@@ -90,6 +90,16 @@ const SUMMARY = [
         icon: "CloudUploadOutlined",
         path: "<HOST>/docs/other/dz",
       },
+      {
+        name: "魔兽作图小技巧",
+        icon: "BgColorsOutlined",
+        path: "<HOST>/docs/other/war3_tec",
+      },
+      {
+        name: "魔兽地形贴图路径大全",
+        icon: "FundOutlined",
+        path: "<HOST>/docs/other/war3_terrainArt",
+      },
     ],
   },
   {
