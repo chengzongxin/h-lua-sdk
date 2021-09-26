@@ -96,7 +96,7 @@ const SUMMARY = [
         path: "<HOST>/docs/other/war3_tec",
       },
       {
-        name: "魔兽地形贴图路径大全",
+        name: "魔兽地形贴图路径",
         icon: "FundOutlined",
         path: "<HOST>/docs/other/war3_terrainArt",
       },
