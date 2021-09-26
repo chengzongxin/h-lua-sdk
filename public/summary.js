@@ -86,7 +86,7 @@ const SUMMARY = [
         path: "<HOST>/docs/other/q_a",
       },
       {
-        name: "上线官方对战平台须知",
+        name: "平台上线须知",
         icon: "CloudUploadOutlined",
         path: "<HOST>/docs/other/dz",
       },
