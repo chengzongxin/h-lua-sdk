@@ -130,6 +130,11 @@ const SUMMARY = [
         icon: "DashboardOutlined",
         path: "<HOST>/docs/other/lua_engine",
       },
+      {
+        name: "UI & FDF",
+        icon: "HighlightOutlined",
+        path: "<HOST>/docs/other/ui_fdf",
+      },
     ],
   },
   {
