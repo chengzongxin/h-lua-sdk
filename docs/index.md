@@ -61,3 +61,9 @@ cd ./h-lua-sdk
 * <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-helloworld">helloWorld</a>
 * <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-crash">压力测试</a>
 * <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-mysterious-land">秘地探奇半成品</a>
+
+### 完全沒试过lua作图怎么快速学习？
+
+* 了解lua基本语法： <a target="_blank" href="https://www.runoob.com/lua/lua-tutorial.html">Runoob Lua教学</a>
+* 了解YD引擎： <a target="_blank" href="https://githubcom/hunzsig-warcraft3/h-lua-sdk/blob/main/depend/h-lua/docs/lua-engine.md">lua-engine.md</a>
+* 有魄力的人可以先略一遍 h-lua 的源码，即使你不用框架内实现，也是有所帮助的
