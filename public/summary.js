@@ -107,8 +107,39 @@ const SUMMARY = [
     icon: "RedditOutlined",
     children: [
       {
-        name: "魔兽争霸h-lua-sdk基础指令介绍",
+        name: "基础指令介绍",
+        icon: "VideoCameraOutlined",
         path: "<HOST>/docs/xxqq/BV1nV411J7FB",
+      },
+      {
+        name: "hslk高级用法演示1",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1TK4y1Z7eB",
+      },
+      {
+        name: "hslk高级用法演示2",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1M64y117sB",
+      },
+      {
+        name: "hslk高级用法演示3",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1ZV411J7JJ",
+      },
+      {
+        name: "UI之sync演示",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1iv411L7CP",
+      },
+      {
+        name: "构建酒馆与小地图UI显示头像",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1Hy4y1s7cj",
+      },
+      {
+        name: "伤害排行榜",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/BV1Lh411v7pR",
       },
     ],
   },
