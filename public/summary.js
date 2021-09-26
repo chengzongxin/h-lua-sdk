@@ -141,6 +141,11 @@ const SUMMARY = [
         icon: "VideoCameraOutlined",
         path: "<HOST>/docs/xxqq/BV1Lh411v7pR",
       },
+      {
+        name: "高端演示",
+        icon: "VideoCameraOutlined",
+        path: "<HOST>/docs/xxqq/upscale",
+      },
     ],
   },
 ];
