@@ -41,6 +41,37 @@ const SUMMARY = [
     ],
   },
   {
+    name: "例子",
+    icon: "BuildOutlined",
+    children: [
+      {
+        name: "使用排行榜",
+        icon: "OrderedListOutlined",
+        path: "<HOST>/docs/example/leaderBoard",
+      },
+      {
+        name: "使用多面板",
+        icon: "BoxPlotOutlined",
+        path: "<HOST>/docs/example/multiBoard",
+      },
+      {
+        name: "难度选择对话框",
+        icon: "UngroupOutlined",
+        path: "<HOST>/docs/example/dialog",
+      },
+      {
+        name: "常见两种选英雄",
+        icon: "CheckSquareOutlined",
+        path: "<HOST>/docs/example/pickHero",
+      },
+      {
+        name: "简单刷兵",
+        icon: "LoginOutlined",
+        path: "<HOST>/docs/example/attack",
+      },
+    ],
+  },
+  {
     name: "其他学习",
     icon: "QuestionCircleOutlined",
     children: [
