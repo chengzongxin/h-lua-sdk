@@ -1,7 +1,7 @@
 const SUMMARY = [
   {
     name: "快速开始",
-    icon: "BookOutlined",
+    icon: "ReadOutlined",
     path: "<HOST>/docs/index",
   },
   {
@@ -15,13 +15,13 @@ const SUMMARY = [
     path: "<HOST>/docs/quick/command",
   },
   {
-    name: "SDK命令指引",
-    icon: "CodeOutlined",
-    path: "<HOST>/docs/quick/command",
+    name: "更新日志",
+    icon: "StockOutlined",
+    path: "<HOST>/docs/quick/update",
   },
   {
     name: "其他学习",
-    icon: "RedditOutlined",
+    icon: "QuestionCircleOutlined",
     children: [
       {
         name: "Jetbrain设置",
@@ -30,7 +30,7 @@ const SUMMARY = [
       },
       {
         name: "询问的技巧",
-        icon: "QuestionOutlined",
+        icon: "MessageOutlined",
         path: "<HOST>/docs/quick/q_a",
       },
     ],
