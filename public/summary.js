@@ -20,6 +20,22 @@ const SUMMARY = [
     path: "<HOST>/docs/quick/update",
   },
   {
+    name: "功能库",
+    icon: "DropboxOutlined",
+    children: [
+      {
+        name: "属性 Attr",
+        icon: "FontColorsOutlined",
+        path: "<HOST>/docs/lib/attr",
+      },
+      {
+        name: "物编入门 Slk",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk1",
+      },
+    ],
+  },
+  {
     name: "其他学习",
     icon: "QuestionCircleOutlined",
     children: [
