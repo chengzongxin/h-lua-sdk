@@ -24,6 +24,11 @@ const SUMMARY = [
     icon: "DropboxOutlined",
     children: [
       {
+        name: "API",
+        icon: "DeploymentUnitOutlined",
+        path: "<HOST>/docs/lib/api",
+      },
+      {
         name: "属性 Attr",
         icon: "FontColorsOutlined",
         path: "<HOST>/docs/lib/attr",
@@ -37,6 +42,11 @@ const SUMMARY = [
         name: "Slk进阶",
         icon: "CodeSandboxOutlined",
         path: "<HOST>/docs/lib/hslk2",
+      },
+      {
+        name: "Sync同步",
+        icon: "CloudSyncOutlined",
+        path: "<HOST>/docs/lib/sync",
       },
     ],
   },
