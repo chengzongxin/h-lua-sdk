@@ -29,9 +29,14 @@ const SUMMARY = [
         path: "<HOST>/docs/lib/attr",
       },
       {
-        name: "物编入门 Slk",
+        name: "Slk入门",
         icon: "CodeSandboxOutlined",
         path: "<HOST>/docs/lib/hslk1",
+      },
+      {
+        name: "Slk进阶",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk2",
       },
     ],
   },
