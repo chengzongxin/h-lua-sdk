@@ -47,12 +47,17 @@ const SUMMARY = [
       {
         name: "Jetbrain设置",
         icon: "StarOutlined",
-        path: "<HOST>/docs/quick/jetbrain",
+        path: "<HOST>/docs/other/jetbrain",
       },
       {
         name: "询问的技巧",
         icon: "MessageOutlined",
-        path: "<HOST>/docs/quick/q_a",
+        path: "<HOST>/docs/other/q_a",
+      },
+      {
+        name: "上线官方对战平台须知",
+        icon: "CloudUploadOutlined",
+        path: "<HOST>/docs/other/dz",
       },
     ],
   },
