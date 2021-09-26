@@ -34,6 +34,11 @@ const SUMMARY = [
         path: "<HOST>/docs/lib/attr",
       },
       {
+        name: "JAPI",
+        icon: "PullRequestOutlined",
+        path: "<HOST>/docs/lib/japi",
+      },
+      {
         name: "Slk入门",
         icon: "CodeSandboxOutlined",
         path: "<HOST>/docs/lib/hslk1",
@@ -42,6 +47,16 @@ const SUMMARY = [
         name: "Slk进阶",
         icon: "CodeSandboxOutlined",
         path: "<HOST>/docs/lib/hslk2",
+      },
+      {
+        name: "Slk原生物编字段",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk_f6",
+      },
+      {
+        name: "Slk与MISC数据",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk_misc",
       },
       {
         name: "Sync同步",
@@ -109,6 +124,11 @@ const SUMMARY = [
         name: "魔兽地形贴图路径",
         icon: "FundOutlined",
         path: "<HOST>/docs/other/war3_terrainArt",
+      },
+      {
+        name: "YDLua引擎",
+        icon: "DashboardOutlined",
+        path: "<HOST>/docs/other/lua_engine",
       },
     ],
   },

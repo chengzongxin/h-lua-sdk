@@ -12,6 +12,26 @@ buff(common) 魔法效果
 upgrade(common) 科技
 ```
 
+### 专属字段
+
+> 改不了的字段定义了也没效
+
+```lua
+_id = "[改不了]自动生成的物编ID"
+_id_force = "[一般不用]自定义物编ID"
+_class = "[改不了]hslk数据类别"
+_type = "[一般不用]hslk数据形式"
+_parent = "模版物编ID"
+_overlie = "叠加"
+_weight = "重量"
+_attr = "属性"
+_ring = "光环"
+_remarks = "结尾灰字描述"
+_cooldown = "冷却时间"
+_cooldownTarget = "冷却技能目标"
+_shadow = "强制使用影子物品"
+```
+
 #### 配置hslk
 
 > hslk的数据配置在【你的项目】的hslk目录中，即可测试自动构建并读取
