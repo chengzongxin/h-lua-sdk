@@ -182,7 +182,6 @@ hslk_item({
     droppable = 1,
     Hotkey = "D",
     _remarks = "精铁铸造的大剑",
-    _remarks = "精铁铸造的大剑",
     _attr = {
         attack_green = "+33",
     },
