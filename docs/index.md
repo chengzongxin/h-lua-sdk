@@ -29,3 +29,35 @@ git clone https://github.com/hunzsig-warcraft3/h-lua-sdk
 ```
 
 > <a target="_blank" href="https://gitee.com/hunzsig/h-lua-sdk">可使用码云加速：(Gitee -> h-lua-sdk)</a>
+
+### 打开终端并进入工作区
+
+```
+cd ./h-lua-sdk
+```
+
+### 创建新项目
+
+```
+> sdk.exe new demo
+```
+
+### 修改地形（非必要）
+
+```
+> sdk.exe we demo
+```
+
+### 测试
+
+```
+> sdk.exe test demo
+```
+
+### 拓展例子地图
+
+> 拓展地图会编写一些业务，来引导你进行学习
+
+* <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-helloworld">helloWorld</a>
+* <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-crash">压力测试</a>
+* <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-mysterious-land">秘地探奇半成品</a>

@@ -1,10 +1,10 @@
-### 魔兽争霸h-lua-sdk基础指令介绍
+## 魔兽争霸h-lua-sdk基础指令介绍
 
-#### B站演示
+### B站演示
 
 > <a target="_blank" href="https://www.bilibili.com/video/BV1nV411J7FB">魔兽争霸h-lua-sdk基础指令介绍</a>
 
-#### 命令行
+### 命令行
 
 ```
 必填 ~ 选填
@@ -17,7 +17,7 @@
   ./h-lua-sdk> sdk.exe build [*PROJECT_NAME]  //构建上线版本并开启游戏进行调试
 ```
 
-#### 模型命令拓展
+### 模型命令拓展
 
 ```
 ./h-lua-sdk> sdk.exe model demo //查看项目demo的模型，默认第0页
