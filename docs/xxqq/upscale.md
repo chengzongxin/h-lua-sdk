@@ -6,7 +6,7 @@ B站演示
 
 > <a target="_blank" href="https://www.bilibili.com/video/BV1AA411w7iZ">魔兽争霸lua作图 - 七十二变模型箭矢效果演示</a>
 
-> <a target="_blank" href="https://www.bilibili.com/video/BV1pU4y177C6">魔兽争霸lua作图 - hot实时热更新调试无敌</a>
+> <a target="_blank" href="https://www.bilibili.com/video/BV1pU4y177C6">魔兽争霸lua作图 - hot实时热更新，调试从未如此轻松</a>
 
 > <a target="_blank" href="https://www.bilibili.com/video/BV1p3411q78m">魔兽争霸lua作图 - 技能实时动态选区</a>
 
