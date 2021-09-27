@@ -1,13 +1,28 @@
 ## 命令行
 
+### 使用WE编辑地形
+
 ```
-* 必填 ~ 选填
-> sdk.exe help  //提示cmd工具命令
-> sdk.exe new [*PROJECT_NAME]  //新建一个地图项目
-> sdk.exe we [*PROJECT_NAME]  //以WE打开地图项目
-> sdk.exe clear [*PROJECT_NAME]  //清理构建的临时文件
-> sdk.exe test [*PROJECT_NAME] ~? //构建测试版本并开启游戏进行调试,加个?参数可以不测试
-> sdk.exe build [*PROJECT_NAME] ~? //构建上线版本并开启游戏进行调试,加个?参数可以不测试
+> sdk.exe new demo //新建一个地图项目，名为demo
+```
+
+### 使用WE编辑地形
+
+> 编辑完后在使用test时会自动将改动记录回你的项目中
+
+```
+> sdk.exe we demo //以WE打开项目demo，主要用于编辑地形
+```
+
+### 模型批量查看
+
+> 模型默认scale1.00，方便对比
+
+```
+> sdk.exe model demo //查看项目demo的模型，默认第0页
+> sdk.exe model demo 2 //查看项目demo的模型，第2页
+> sdk.exe model demo ttg //查看项目demo的模型，只要路径带有ttg的
+> sdk.exe model demo abc 1  //查看项目demo的模型，第1页且只要路径带有abc的
 ```
 
 ### 测试
@@ -32,11 +47,8 @@
 > sdk.exe build demo ? //可以在后面加个问号，从而生成地图而不进行测试，一般用于检查物编的生成结果
 ```
 
-### 模型命令拓展学习
+### 清理缓存
 
 ```
-> sdk.exe model demo //查看项目demo的模型，默认第0页
-> sdk.exe model demo 2 //查看项目demo的模型，第2页
-> sdk.exe model demo ttg //查看项目demo的模型，只要路径带有ttg的
-> sdk.exe model demo abc 1  //查看项目demo的模型，第1页且只要路径带有abc的
+> sdk.exe clear demo //清理构建的临时文件
 ```
