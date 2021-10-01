@@ -64,6 +64,6 @@ cd ./h-lua-sdk
 
 ### 完全沒试过lua作图怎么快速学习？
 
-* 了解lua基本语法： <a target="_blank" href="https://www.runoob.com/lua/lua-tutorial.html">Runoob Lua教学</a>
-* 了解YD引擎： 其他学习 -> YDLua引擎
-* 有魄力的人可以先略一遍 h-lua 的源码，即使你不用框架内实现，也是有所帮助的
+* lua基本语法： <a target="_blank" href="https://www.runoob.com/lua/lua-tutorial.html">Runoob Lua教学</a>
+* YDLua引擎： 其他学习 -> YDLua引擎，坊间传闻有bug破逼事什么的。唯真言一句：有则无之，无则有之。领悟去吧。
+* 有魄力的人可以先略一遍 h-lua 的源码，即使你不用框架内实现，也是有所帮助的。
