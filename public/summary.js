@@ -59,6 +59,11 @@ const SUMMARY = [
         path: "<HOST>/docs/lib/hslk_misc",
       },
       {
+        name: "Slk与Excel",
+        icon: "FileExcelOutlined",
+        path: "<HOST>/docs/lib/hslk_excel",
+      },
+      {
         name: "Sync同步",
         icon: "CloudSyncOutlined",
         path: "<HOST>/docs/lib/sync",
