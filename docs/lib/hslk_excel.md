@@ -49,7 +49,7 @@ local format = { "string", "int" }
 
 
 -- 取第一行并删除它，得到纯净的2~N行数据
-local field = string.explode(',', data[1]) -- {"Name", "attack"}
+local field = string.explode(',', data[1]) -- {"Name", "goldcost"}
 table.remove(data, 1)
 
 -- 将序列（逗号），转为数组
