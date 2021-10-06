@@ -99,6 +99,11 @@ const SUMMARY = [
         icon: "LoginOutlined",
         path: "<HOST>/docs/example/attack",
       },
+      {
+        name: "动态箭矢",
+        icon: "ArrowRightOutlined",
+        path: "<HOST>/docs/example/missile",
+      },
     ],
   },
   {
