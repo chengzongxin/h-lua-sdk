@@ -136,6 +136,11 @@ const SUMMARY = [
         path: "<HOST>/docs/other/war3_terrainArt",
       },
       {
+        name: "魔兽常见崩溃原因",
+        icon: "BugOutlined",
+        path: "<HOST>/docs/other/war3_crash",
+      },
+      {
         name: "YDLua引擎",
         icon: "DashboardOutlined",
         path: "<HOST>/docs/other/lua_engine",
