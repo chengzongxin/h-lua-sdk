@@ -2,7 +2,6 @@
 
 * [B]blizzard.lua
 * [L]**console\build.lua**
-
 ```
 print(...)
 print_stack(...)
@@ -11,18 +10,14 @@ print_err(val)
 print_r(t, printMethod, showDetail)
 print_mbr(t)
 ```
-
 * [L]**console\hslk.lua**
-
 ```
 rem(key1, key2)
 print_stack(...)
 print_r(t)
 sub_print_r(tt, indent)
 ```
-
 * [L]**console\test.lua**
-
 ```
 JassRuntime.error_handle(msg)
 print(...)
@@ -33,7 +28,6 @@ print_r(t, printMethod, showDetail)
 sub_print_r(tt, indent)
 print_mbr(t)
 ```
-
 * [B]const\abilityTarget.lua
 * [B]const\attribute.lua
 * [B]const\attributeXtras.lua
@@ -48,10 +42,10 @@ print_mbr(t)
 * [B]const\item.lua
 * [B]const\keyboard.lua
 * [B]const\monitor.lua
+* [B]const\orderStr.lua
 * [B]const\target.lua
 * [B]const\textTag.lua
 * [L]**const\ubertip.lua**
-
 ```
 CONST_UBERTIP_TARGET_LABEL(target, actionType, actionField, isValue)
 CONST_UBERTIP_IS_PERCENT(key)
@@ -63,17 +57,13 @@ CONST_UBERTIP_RING_ITEM(data)
 CONST_RESEARCH_UBERTIP_ATTR(attr)
 CONST_RESEARCH_UBERTIP_RING_ABILITY(data)
 ```
-
 * [B]const\unit.lua
 * [L]**echo.lua**
-
 ```
 echo(msg, whichPlayer, duration, x, y)
 ```
-
 * [B]engine.lua
 * [L]**foundation\Mapping.lua**
-
 ```
 Mapping:new()
 Mapping:length()
@@ -82,9 +72,7 @@ Mapping:get(key)
 Mapping:del(...)
 Mapping:forEach(action)
 ```
-
 * [L]**foundation\color.lua**
-
 ```
 hcolor.hex(str, color)
 hcolor.mixed(str, color)
@@ -108,9 +96,7 @@ hcolor.sea(str)
 hcolor.purpleLight(str)
 hcolor.purple(str)
 ```
-
 * [L]**foundation\json.lua**
-
 ```
 kind_of(obj)
 escape_str(s)
@@ -120,9 +106,7 @@ parse_num_val(str, pos)
 json.stringify(obj, as_key)
 json.parse(str, pos, end_delim)
 ```
-
 * [L]**foundation\math.lua**
-
 ```
 math.random(n, m)
 math.polarProjection(x, y, dist, angle)
@@ -136,9 +120,7 @@ math.getDistanceBetweenUnit(u1, u2)
 math.getMaxDistanceInRect(w, h, deg)
 math.date(timestamp)
 ```
-
 * [L]**foundation\string.lua**
-
 ```
 string.char2id(idChar)
 string.id2char(id)
@@ -157,9 +139,7 @@ string.findCount(str, pattern)
 string.attrBuffKey(val)
 string.convert(dec, cvt)
 ```
-
 * [L]**foundation\table.lua**
-
 ```
 table.len(table)
 table.random(arr)
@@ -172,10 +152,8 @@ table.delete(arr, val, qty)
 table.value(arr, key)
 table.obj2arr(obj, keyMap)
 ```
-
 * [B]h-lua.lua
 * [L]**lib\attribute\setter.lua**
-
 ```
 hattributeSetter.getDecimalTemporaryStorage(whichUnit, attr)
 hattributeSetter.setDecimalTemporaryStorage(whichUnit, attr, value)
@@ -193,18 +171,14 @@ hattributeSetter.setUnitSight(whichUnit, futureVal)
 hattributeSetter.setUnitThree(whichUnit, futureVal, attr, diff)
 hattributeSetter.relation(whichUnit, attr, diff)
 ```
-
 * [L]**lib\attribute\xtras.lua**
-
 ```
 hattribute.xtrasPassAlive(targetUnit, type, field)
 hattribute.getXtras(whichUnit, eventKey)
 hattribute.hasXtras(whichUnit, eventKey)
 hattribute.xtras(triggerUnit, eventKey, evtData)
 ```
-
 * [L]**lib\attribute.lua**
-
 ```
 hattribute.isValType(field, valType)
 hattribute.setRelation(relation)
@@ -215,9 +189,7 @@ hattribute.get(whichUnit, attr, default)
 hattribute.caleAttribute(damageSrc, isAdd, whichUnit, attr, times)
 hattribute.getArmorReducePercent(defend)
 ```
-
 * [L]**lib\award.lua**
-
 ```
 haward.setShareRange(range)
 haward.forUnit(whichUnit, exp, gold, lumber)
@@ -232,9 +204,7 @@ haward.forPlayer(gold, lumber)
 haward.forPlayerGold(gold)
 haward.forPlayerLumber(lumber)
 ```
-
 * [L]**lib\buff.lua**
-
 ```
 hbuff.uniqueKey()
 hbuff.count(handleUnit, groupKey)
@@ -242,9 +212,7 @@ hbuff.create(during, handleUnit, groupKey, diff, purpose, rollback)
 hbuff.purpose(handleUnit, buffKey)
 hbuff.delete(handleUnit, buffKey)
 ```
-
 * [L]**lib\cache.lua**
-
 ```
 hcache.len()
 hcache.exist(handle, key)
@@ -255,9 +223,7 @@ hcache.free(handle, key)
 hcache.set(handle, key, value)
 hcache.get(handle, key, default)
 ```
-
 * [L]**lib\camera.lua**
-
 ```
 hcamera.reset(whichPlayer, during)
 hcamera.apply(whichPlayer, during, camerasetup)
@@ -267,24 +233,18 @@ hcamera.lock(whichPlayer, whichUnit)
 hcamera.changeDistance(whichPlayer, diffDistance)
 hcamera.shock(whichPlayer, whichType, during, scale)
 ```
-
 * [L]**lib\cmd.lua**
-
 ```
 hcmd.conf(commands, playerIndexes)
 ```
-
 * [L]**lib\dialog.lua**
-
 ```
 hdialog.hotkey(key)
 hdialog.del(whichDialog)
 hdialog.create(whichPlayer, options, action)
 ```
-
 * [B]lib\dzapi\cache.lua
 * [L]**lib\dzapi.lua**
-
 ```
 hdzapi.isRPGLobby()
 hdzapi.isRPGLadder()
@@ -304,10 +264,8 @@ hdzapi.saveServer(whichPlayer, key, value)
 hdzapi.clearServer(whichPlayer, key)
 hdzapi.setRoomStat(whichPlayer, key, value)
 ```
-
 * [B]lib\dzui\cache.lua
 * [L]**lib\dzui.lua**
-
 ```
 hdzui.wideScreen()
 hdzui.hideInterface()
@@ -318,18 +276,14 @@ hdzui.framePoint(frameId, relation, align, alignRelation, x, y)
 hdzui.onMouse(frameId, mouseOrder, callFunc)
 hdzui.miniMapTrack(options)
 ```
-
 * [L]**lib\effect.lua**
-
 ```
 heffect.del(e)
 heffect.toXY(effectModel, x, y, during)
 heffect.toUnit(effectModel, targetUnit, during)
 heffect.bindUnit(effectModel, targetUnit, attach, during)
 ```
-
 * [L]**lib\enchant.lua**
-
 ```
 henchant.setIntrinsicAddition(percent)
 henchant.enableAppend(status)
@@ -337,32 +291,24 @@ henchant.setAppendAttachEffect(whichEnchant, effects)
 henchant.setEnvReaction(onEnchant, toEnchant, reaction)
 henchant.append(options)
 ```
-
 * [L]**lib\enemy.lua**
-
 ```
 henemy.set(name, color, playerIndexes, isShareSight)
 henemy.getPlayer(createQty, teamNo)
 henemy.isShareSight(teamNo)
 henemy.create(options)
 ```
-
 * [L]**lib\env.lua**
-
 ```
 henv.setFogStatus(enableFog, enableMark)
 henv.clearDestructable(whichRect)
 henv.build(whichRect, typeStr, isInvulnerable, isDestroyRect, ground, doodad, units)
 henv.random(whichRect, typeStr, isInvulnerable, isDestroyRect)
 ```
-
 * [L]**lib\event\defaultActions.lua**
-
 ```
 ```
-
 * [L]**lib\event.lua**
-
 ```
 hevent.free(handle)
 hevent.pool(handle, conditionAction, regEvent)
@@ -472,9 +418,7 @@ hevent.onMoveStop(whichUnit, callFunc)
 hevent.onHoldOn(whichUnit, callFunc)
 hevent.onStop(whichUnit, callFunc)
 ```
-
 * [L]**lib\group.lua**
-
 ```
 hgroup.forEach(whichGroup, action)
 hgroup.count(whichGroup)
@@ -490,9 +434,7 @@ hgroup.portal(whichGroup, x, y, eff, isFollow)
 hgroup.animate(whichGroup, animate)
 hgroup.clear(whichGroup, isDestroy, isDestroyUnit)
 ```
-
 * [L]**lib\hero.lua**
-
 ```
 hhero.getPrimary(whichHero)
 hhero.getPrimaryLabel(whichHero)
@@ -513,20 +455,14 @@ hhero.setBornXY(x, y)
 hhero.reborn(whichHero, delay, invulnerable, x, y, showDialog)
 hhero.buildSelector(options)
 ```
-
 * [L]**lib\id.lua**
-
 ```
 HL_ID_INIT()
 ```
-
 * [L]**lib\initialization.lua**
-
 ```
 ```
-
 * [L]**lib\is.lua**
-
 ```
 his.night()
 his.day()
@@ -585,9 +521,7 @@ his.borderCamera(x, y)
 his.destroy(whichItem)
 his.hasItem(whichUnit, whichItemId)
 ```
-
 * [L]**lib\item.lua**
-
 ```
 hitem.x(it)
 hitem.y(it)
@@ -640,9 +574,7 @@ hitem.drop(origin, slot)
 hitem.pickRect(u, x, y, w, h)
 hitem.pickRound(u, x, y, r)
 ```
-
 * [L]**lib\itemPool.lua**
-
 ```
 hitemPool.poolName(poolName)
 hitemPool.insert(poolName, whichItem)
@@ -650,21 +582,15 @@ hitemPool.delete(poolName, whichItem)
 hitemPool.free(whichItem)
 hitemPool.forEach(poolName, action)
 ```
-
 * [L]**lib\japi\formatter.lua**
-
 ```
 local toBool(value)
 local toInt(value, def)
 ```
-
 * [L]**lib\japi\triumph.lua**
-
 ```
 ```
-
 * [L]**lib\japi.lua**
-
 ```
 hjapi.echo(msg)
 hjapi.has(method)
@@ -1023,9 +949,7 @@ hjapi.RequestExtraRealData(dataType, whichPlayer, param1, param2, param3, param4
 hjapi.RequestExtraStringData(dataType, whichPlayer, param1, param2, param3, param4, param5, param6)
 hjapi.SetUnitState(whichUnit, state, value)
 ```
-
 * [L]**lib\leaderBoard.lua**
-
 ```
 hleaderBoard.LeaderboardResize(whichLeaderBoard)
 hleaderBoard.create(key, title, refreshFrequency, response)
@@ -1036,18 +960,14 @@ hleaderBoard.pos(key, n)
 hleaderBoard.top(key)
 hleaderBoard.bottom(key)
 ```
-
 * [L]**lib\lightning.lua**
-
 ```
 hlightning.del(lightning, delay)
 hlightning.xyz2xyz(lightningType, x1, y1, z1, x2, y2, z2, during)
 hlightning.loc2loc(lightningType, loc1, loc2, during)
 hlightning.unit2unit(lightningType, unit1, unit2, during)
 ```
-
 * [L]**lib\monitor.lua**
-
 ```
 hmonitor.create(key, frequency, action, ignoreFilter)
 hmonitor.destroy(key)
@@ -1055,16 +975,12 @@ hmonitor.isListening(key, obj)
 hmonitor.listen(key, obj)
 hmonitor.ignore(key, obj)
 ```
-
 * [L]**lib\multiBoard.lua**
-
 ```
 hmultiBoard.create(key, refreshFrequency, yourData)
 hmultiBoard.setTitle(whichBoard, title)
 ```
-
 * [L]**lib\player.lua**
-
 ```
 hplayer.adjustPlayerState(delta, whichPlayer, whichPlayerState)
 hplayer.setPlayerState(whichPlayer, whichPlayerState, value)
@@ -1143,9 +1059,7 @@ hplayer.setFoodCap(whichPlayer, value)
 hplayer.getFoodCapCeiling(whichPlayer)
 hplayer.setFoodCapCeiling(whichPlayer, value)
 ```
-
 * [L]**lib\quest.lua**
-
 ```
 hquest.del(q, delay)
 hquest.create(options)
@@ -1154,9 +1068,7 @@ hquest.setCompleted(q)
 hquest.setFailed(q)
 hquest.setDiscovered(q)
 ```
-
 * [L]**lib\rect.lua**
-
 ```
 hrect.alloc(r, name)
 hrect.world()
@@ -1175,14 +1087,10 @@ hrect.getMaxY(whichRect)
 hrect.del(whichRect, delay)
 hrect.lock(options)
 ```
-
 * [L]**lib\shop.lua**
-
 ```
 ```
-
 * [L]**lib\skill\basic.lua**
-
 ```
 hskill.avoid(whichUnit)
 hskill.invulnerable(whichUnit, during, effect)
@@ -1193,9 +1101,7 @@ hskill.visible(whichUnit, during, transition, effect)
 hskill.modelEffect(whichUnit, whichAbility, abilityLevel, during)
 hskill.diy(options)
 ```
-
 * [L]**lib\skill\complex.lua**
-
 ```
 hskill.knocking(options)
 hskill.split(options)
@@ -1215,9 +1121,7 @@ hskill.leapRange(options)
 hskill.leapReflex(options)
 hskill.rectangleStrike(options)
 ```
-
 * [L]**lib\skill\damage.lua**
-
 ```
 local _damageTtg(targetUnit, damage, fix, rgb, speed)
 hskill.damage(options)
@@ -1225,17 +1129,17 @@ hskill.damageStep(options)
 hskill.damageRange(options)
 hskill.damageGroup(options)
 ```
-
+* [L]**lib\skill\missile.lua**
+```
+hskill.missile(options)
+```
 * [L]**lib\skill\ring.lua**
-
 ```
 hring.check(id)
 hring.insert(whichUnit, id, level)
 hring.remove(whichUnit, id)
 ```
-
 * [L]**lib\skill.lua**
-
 ```
 hskill.getAttribute(abilityId)
 hskill.addProperty(whichUnit, abilityId, level)
@@ -1248,9 +1152,7 @@ hskill.forever(whichUnit, abilityId)
 hskill.has(whichUnit, abilityId)
 hskill.setCoolDown(whichUnit, abilityID, coolDown)
 ```
-
 * [L]**lib\slk.lua**
-
 ```
 hslk.i2v(id, ...)
 hslk.n2v(name)
@@ -1259,9 +1161,7 @@ hslk.classIds(class)
 hslk.typeIds(t)
 hslk.misc(...)
 ```
-
 * [L]**lib\sound.lua**
-
 ```
 hsound.voiceCreate(path, duration, is3D, channel, volume, pitch)
 hsound.voice(s)
@@ -1273,9 +1173,7 @@ hsound.bgmStop(whichPlayer)
 hsound.bgm(musicFileName, whichPlayer)
 hsound.bgmVolume(percent, whichPlayer)
 ```
-
 * [L]**lib\sync.lua**
-
 ```
 hsync.key()
 hsync.mix(key, array)
@@ -1284,9 +1182,7 @@ hsync.init()
 hsync.send(key, array)
 hsync.onSend(key, callback)
 ```
-
 * [L]**lib\textTag.lua**
-
 ```
 htextTag.del(ttg, delay)
 htextTag.create(msg, size, color, opacity, during)
@@ -1302,17 +1198,13 @@ htextTag.setVelocity(ttg, xSpeed, ySpeed)
 htextTag.style(ttg, showType, xSpeed, ySpeed)
 htextTag.model(options)
 ```
-
 * [L]**lib\texture.lua**
-
 ```
 htexture.cinematicFilterGeneric(duration, bmode, tex, red0, green0, blue0, trans0, red1, green1, blue1, trans1)
 htexture.mark(path, during, whichPlayer, red, green, blue)
 htexture.alertCircle(diameter, x, y, during, token, color)
 ```
-
 * [L]**lib\time.lua**
-
 ```
 htime.clock()
 htime.his()
@@ -1328,9 +1220,7 @@ htime.delTimer(t)
 htime.setTimeout(frequency, yourFunc, title)
 htime.setInterval(frequency, yourFunc, title)
 ```
-
 * [L]**lib\unit.lua**
-
 ```
 hunit.getAvatar(uOrId)
 hunit.getSight(uOrId)
@@ -1387,16 +1277,12 @@ hunit.setCanFly(u)
 hunit.getFlyHeight(u)
 hunit.setFlyHeight(u, height, speed)
 ```
-
 * [L]**lib\weather.lua**
-
 ```
 hweather.del(w, delay)
 hweather.create(options)
 ```
-
 * [L]**slk\pilot.lua**
-
 ```
 _ability(_v)
 _item(_v)
@@ -1412,9 +1298,7 @@ _onItemGet(_v)
 _onItemUsed(_v)
 _onRing(_v)
 ```
-
 * [L]**slk\setter.lua**
-
 ```
 F6V_I_SYNTHESIS(formula)
 local F6_RING(_v)
@@ -1427,9 +1311,7 @@ F6V_I(_v)
 F6V_B(_v)
 F6V_UP(_v)
 ```
-
 * [L]**slk\slk.lua**
-
 ```
 hslk_init()
 local hslk_cli_set(_v)
@@ -1446,5 +1328,4 @@ hslk_item_fleeting(Name, file, modelScale, moveHeight)
 hslk_buff(_v)
 hslk_upgrade(_v)
 ```
-
 * [B]slk\system.lua
