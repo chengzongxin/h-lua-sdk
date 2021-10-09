@@ -26,14 +26,14 @@
         │   │   ├── UI - 命令等系统图形的修改（不包括dzui）不需要可删除，然后需要修改 map/w3x/war3mapSkin.txt
         │   │   ├── war3mapImported - 通用目录
         │   │   └── war3mapMap.blp - 小地图文件，一般不会手动处理，交给 -yd
-        │   ├── slk - ini物编
-        │   └── w3x - 地图lni
+        │   ├── slk - ini物编（没事别乱改，使用we命令改完地图会备份）
+        │   └── w3x - 地图lni（没事别乱改，易崩，使用we命令改完地图会备份）
         │       ├── UI - fdf格式UI文件存放位置，dzui相关的放在此处（可修改）
         │       ├── units
         │       │   └── CommandFunc.txt - 单位指令按钮设置，攻击、停止等（可修改）
         │       ├── fonts.ttf - 游戏字体文件（可替换，结合war3mapSkin.txt）
         │       ├── war3mapSkin.txt - 游戏界面配置（可修改）
-        │       └── 其他文件，备份用，没事别乱改，易崩
+        │       └── 其他文件，备份用
         ├── scripts - lua脚本（*此乃建议，实际上你的lua只要在项目目录内，都能按路径访问）
         └── main.lua - 项目代码入口
 ```
