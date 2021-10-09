@@ -17,6 +17,8 @@
 ### 模型批量查看
 
 > 模型默认scale1.00，方便对比
+> 
+> 一个批次最大289个模型，不足289的模型位置会变为黑色方块
 
 ```
 > sdk.exe model demo //查看项目demo的模型，默认第0页
@@ -25,7 +27,7 @@
 > sdk.exe model demo abc 1  //查看项目demo的模型，第1页且只要路径带有abc的
 ```
 
-### 测试
+### test 测试
 
 > 在test调试中，你可以直接F10重启魔兽获得脚本的更新，而无需再次使用test命令
 >
@@ -36,15 +38,26 @@
 > sdk.exe test demo ? //可以在后面加个问号，从而生成地图而不进行测试，一般用于检查物编的生成结果
 ```
 
-### 打包
+### build 打包预测试
 
 > 在build调试中，F10重启魔兽不能获得脚本的更新，必须再次使用build命令
 >
-> build命令会引用打包流程的lua脚本，DEBUGGING会自动置为false
+> build命令会引用打包流程的lua脚本，DEBUGGING依然为true，方便查看打包后可能出现的未知错误
 
 ```
 > sdk.exe build demo //打包你的demo项目并测试
 > sdk.exe build demo ? //可以在后面加个问号，从而生成地图而不进行测试，一般用于检查物编的生成结果
+```
+
+### dist 打包上线
+
+> 在dist调试中，F10重启魔兽不能获得脚本的更新，必须再次使用build命令
+>
+> dist命令会引用打包流程的lua脚本，DEBUGGING会自动置为false
+
+```
+> sdk.exe dist demo //打包你的demo项目并测试
+> sdk.exe dist demo ? //可以在后面加个问号，从而生成地图而不进行测试，一般用于检查物编的生成结果
 ```
 
 ### 清理缓存
