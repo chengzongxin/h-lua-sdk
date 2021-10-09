@@ -68,6 +68,11 @@ const SUMMARY = [
         icon: "CloudSyncOutlined",
         path: "<HOST>/docs/lib/sync",
       },
+      {
+        name: "Color文本颜色",
+        icon: "FormatPainterOutlined",
+        path: "<HOST>/docs/lib/color",
+      },
     ],
   },
   {
