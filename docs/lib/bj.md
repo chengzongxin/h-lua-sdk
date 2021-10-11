@@ -16,7 +16,7 @@ UnitApplyTimedLifeBJ( 60, 'BTLF', GetTriggerUnit() )
 
 那么这个BJ其实对应CJ的是什么呢？
 
-> 在F4触发编辑器，讲T转为jass自定义文本后，按住ctrl点击函数名即可查看WE的函数详情
+> 在F4触发编辑器，将T转为jass自定义文本后，按住ctrl点击函数名即可查看WE的函数详情
 
 ```jass
 function UnitApplyTimedLifeBJ takes real duration, integer buffId, unit whichUnit returns nothing
