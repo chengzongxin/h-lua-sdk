@@ -29,6 +29,16 @@ const SUMMARY = [
         path: "<HOST>/docs/lib/api",
       },
       {
+        name: "BJ",
+        icon: "BoldOutlined",
+        path: "<HOST>/docs/lib/bj",
+      },
+      {
+        name: "CJ",
+        icon: "CopyrightOutlined",
+        path: "<HOST>/docs/lib/cj",
+      },
+      {
         name: "属性 Attr",
         icon: "FontColorsOutlined",
         path: "<HOST>/docs/lib/attr",
