@@ -20,6 +20,36 @@ const SUMMARY = [
     path: "<HOST>/docs/quick/update",
   },
   {
+    name: "SLK",
+    children: [
+      {
+        name: "Slk入门",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk1",
+      },
+      {
+        name: "Slk进阶",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk2",
+      },
+      {
+        name: "Slk原生物编字段",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk_f6",
+      },
+      {
+        name: "Slk与MISC数据",
+        icon: "CodeSandboxOutlined",
+        path: "<HOST>/docs/lib/hslk_misc",
+      },
+      {
+        name: "Slk与Excel",
+        icon: "FileExcelOutlined",
+        path: "<HOST>/docs/lib/hslk_excel",
+      },
+    ],
+  },
+  {
     name: "功能库",
     icon: "DropboxOutlined",
     children: [
@@ -47,31 +77,6 @@ const SUMMARY = [
         name: "JAPI",
         icon: "PullRequestOutlined",
         path: "<HOST>/docs/lib/japi",
-      },
-      {
-        name: "Slk入门",
-        icon: "CodeSandboxOutlined",
-        path: "<HOST>/docs/lib/hslk1",
-      },
-      {
-        name: "Slk进阶",
-        icon: "CodeSandboxOutlined",
-        path: "<HOST>/docs/lib/hslk2",
-      },
-      {
-        name: "Slk原生物编字段",
-        icon: "CodeSandboxOutlined",
-        path: "<HOST>/docs/lib/hslk_f6",
-      },
-      {
-        name: "Slk与MISC数据",
-        icon: "CodeSandboxOutlined",
-        path: "<HOST>/docs/lib/hslk_misc",
-      },
-      {
-        name: "Slk与Excel",
-        icon: "FileExcelOutlined",
-        path: "<HOST>/docs/lib/hslk_excel",
       },
       {
         name: "Sync同步",

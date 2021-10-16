@@ -12,24 +12,28 @@ buff(common) 魔法效果
 upgrade(common) 科技
 ```
 
-### 专属字段
+### 框架自定义字段
 
-> 改不了的字段定义了也没效
+> 【改不了】的字段定义了也没效
+>
+> 【不建议用】的字段说明不推荐使用
+>
+> 【物品专用】的字段说明只在hslk_item有效
 
 ```lua
-_id = "[改不了]自动生成的物编ID"
-_id_force = "[一般不用]自定义物编ID"
-_class = "[改不了]hslk数据类别"
-_type = "[一般不用]hslk数据形式"
+_id = "【改不了】自动生成的物编ID"
+_id_force = "【不建议用】自定义物编ID"
+_class = "【改不了】hslk数据类别"
+_type = "hslk数据形式"
 _parent = "模版物编ID"
-_overlie = "叠加"
-_weight = "重量"
 _attr = "属性"
 _ring = "光环"
 _remarks = "结尾灰字描述"
-_cooldown = "冷却时间"
-_cooldownTarget = "冷却技能目标"
-_shadow = "强制使用影子物品"
+_overlie = "【物品专用】叠加"
+_weight = "【物品专用】重量"
+_cooldown = "【物品专用】冷却时间"
+_cooldownTarget = "【物品专用】冷却技能目标"
+_shadow = "【物品专用】强制使用影子模式，影子模式就是自动用卷轴代替原来物品的形式"
 ```
 
 #### 配置hslk
