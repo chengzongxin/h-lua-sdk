@@ -5,6 +5,8 @@
 ```lua
 hslk_item({
   Name = "跳跳剑",
+  _cast = 0.5, -- 施法前摇
+  _cost = 50, -- 魔法消耗
   _cooldown = 2,
   _cooldownTarget = CONST_ABILITY_TARGET.location.value,
   _onItemUsed = _onItemUsed(function(evtData)
