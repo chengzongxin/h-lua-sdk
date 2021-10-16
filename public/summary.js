@@ -21,6 +21,7 @@ const SUMMARY = [
   },
   {
     name: "SLK",
+    icon: "SisternodeOutlined",
     children: [
       {
         name: "Slk入门",
