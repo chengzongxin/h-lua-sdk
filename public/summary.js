@@ -21,26 +21,26 @@ const SUMMARY = [
   },
   {
     name: "SLK",
-    icon: "SisternodeOutlined",
+    icon: "CodeSandboxOutlined",
     children: [
       {
         name: "Slk入门",
-        icon: "CodeSandboxOutlined",
+        icon: "InboxOutlined",
         path: "<HOST>/docs/lib/hslk1",
       },
       {
         name: "Slk进阶",
-        icon: "CodeSandboxOutlined",
+        icon: "InboxOutlined",
         path: "<HOST>/docs/lib/hslk2",
       },
       {
         name: "Slk原生物编字段",
-        icon: "CodeSandboxOutlined",
+        icon: "TableOutlined",
         path: "<HOST>/docs/lib/hslk_f6",
       },
       {
         name: "Slk与MISC数据",
-        icon: "CodeSandboxOutlined",
+        icon: "TableOutlined",
         path: "<HOST>/docs/lib/hslk_misc",
       },
       {
