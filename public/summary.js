@@ -96,6 +96,11 @@ const SUMMARY = [
     icon: "BuildOutlined",
     children: [
       {
+        name: "自定义Attr属性",
+        icon: "FontColorsOutlined",
+        path: "<HOST>/docs/example/attr",
+      },
+      {
         name: "使用排行榜",
         icon: "OrderedListOutlined",
         path: "<HOST>/docs/example/leaderBoard",
