@@ -2,10 +2,14 @@
 
 #### 项目当前由 xxqq9527 继续被动维护
 
-> 2021/07 ~ 现在
+> 2021/07 ~ 10
 
-* chore(*): 优化
-* fix(*): 修复
+* feat(sdk): 新增multi、kill、dist命令
+* feat(const): 增加通魔命令串数据
+* feat(var): 补全文本对齐参数
+* feat(skill): 新增技能[missile箭矢]
+* feat(terrain): 新增掌管地形
+* fix(*): 修复已知bug
 
 > 2021/06
 
