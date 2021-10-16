@@ -6,7 +6,7 @@
 
 * \h-lua-sdk\depend\h-lua\const\attribute.lua
 
-找到 CONST_ATTR
+找到 CONST_ATTR_CONF
 
 > 格式 键值,名字,初始值
 >
@@ -15,7 +15,7 @@
 > 上述键值会在初始化时强行覆盖为slk的物编数据，初始值写了是没用的
 
 ```lua
-ATTR_CONF = {
+CONST_ATTR_CONF = {
     { "life", "生命", 0 },
     { "mana", "魔法", 0 },
     { "move", "移动", 0 },
@@ -27,7 +27,7 @@ ATTR_CONF = {
 在 CONST_ATTR 添加你自己的参数，如：幸运值
 
 ```lua
-ATTR_CONF = {
+CONST_ATTR_CONF = {
     { "life", "生命", 0 },
     { "mana", "魔法", 0 },
     { "move", "移动", 0 },
