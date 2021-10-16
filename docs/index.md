@@ -16,7 +16,7 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 
 > <a target="_blank" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664">Git教程 - 廖雪峰的官方网站</a>
 
-### 访问项目
+### 访问项目，复制https的链接
 
 > <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk">h-lua-sdk</a>
 
@@ -24,19 +24,26 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 
 ### 克隆（下载）项目
 
-> 不推荐使用zip下载，使用git能看到项目的开发历史，在fork的加持下也方便监听项目的更新
-
 ```
 git clone https://github.com/hunzsig-warcraft3/h-lua-sdk
 ```
 
 > <a target="_blank" href="https://gitee.com/hunzsig/h-lua-sdk">可使用码云加速：(Gitee -> h-lua-sdk)</a>
 
-### 同步最新项目
 
-```
-git pull
-```
+> 不推荐使用zip下载，使用git能看到项目的开发历史，在fork的加持下也方便监听项目的更新
+>
+> 会git的自然就懂，而考虑很多人根本不会用git，这里直接演示fork的用法。
+
+#### fork 流程
+
+![Quick2](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/quick2.png)
+
+![Quick3](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/quick3.png)
+
+![Quick4](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/quick4.png)
+
+![Quick5](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/quick5.png)
 
 ### 代码编辑器
 
