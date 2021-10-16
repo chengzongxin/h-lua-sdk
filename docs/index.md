@@ -12,6 +12,32 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 
 > <a target="_blank" href="https://git-scm.com">Git (git-scm.com)</a>
 
+#### 如果你不懂git，请自行学习，这里不做赘述
+
+> <a target="_blank" href="https://www.liaoxuefeng.com/wiki/896043488029600/898732792973664">Git教程 - 廖雪峰的官方网站</a>
+
+### 访问项目
+
+> <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk">h-lua-sdk</a>
+
+![Quick1](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/quick1.png)
+
+### 克隆（下载）项目
+
+> 不推荐使用zip下载，使用git能看到项目的开发历史，在fork的加持下也方便监听项目的更新
+
+```
+git clone https://github.com/hunzsig-warcraft3/h-lua-sdk
+```
+
+> <a target="_blank" href="https://gitee.com/hunzsig/h-lua-sdk">可使用码云加速：(Gitee -> h-lua-sdk)</a>
+
+### 同步最新项目
+
+```
+git pull
+```
+
 ### 代码编辑器
 
 编辑器推荐使用Jetbrain Ideac(社区版免费) 并安装插件【EmmyLua】。
@@ -22,15 +48,7 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 
 ![Emmylua](https://github.com/hunzsig-warcraft3/h-lua-sdk/raw/gh-pages/img/emmylua.png)
 
-### 克隆（下载）项目
-
-```
-git clone https://github.com/hunzsig-warcraft3/h-lua-sdk
-```
-
-> <a target="_blank" href="https://gitee.com/hunzsig/h-lua-sdk">可使用码云加速：(Gitee -> h-lua-sdk)</a>
-
-### 打开终端并进入工作区
+### 打开代码编辑器，载入sdk项目，使用终端并确保进入工作区
 
 ```
 cd ./h-lua-sdk
