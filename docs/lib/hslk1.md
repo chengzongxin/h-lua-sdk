@@ -1,6 +1,8 @@
 ## hslk 使用入门
 
 > hslk是h-lua的物编生成方式，只要在hslk目录中运用设定好的方法，即可创建物编
+>
+> ！！可以参考 hello world <a target="_blank" href="https://github.com/hunzsig-warcraft3/h-lua-sdk-helloworld">点击参考</a>
 
 ### 类型
 
@@ -31,8 +33,8 @@ _ring = "光环"
 _remarks = "结尾灰字描述"
 _overlie = "【物品专用】叠加"
 _weight = "【物品专用】重量"
-_cooldown = "【物品专用】冷却时间"
-_cooldownTarget = "【物品专用】冷却技能目标"
+_cooldown = "【物品专用】冷却时间（秒）"
+_cooldownTarget = "【物品专用】冷却技能目标，参考CONST_ABILITY_TARGET"
 _shadow = "【物品专用】强制使用影子模式，影子模式就是自动用卷轴代替原来物品的形式"
 ```
 
