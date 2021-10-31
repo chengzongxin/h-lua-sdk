@@ -78,8 +78,6 @@ hdzapi.hasMallItem = function(whichPlayer, key)
     return cache.hasMallItem[key][hplayer.index(whichPlayer)]
 end
 
-
-
 --- 获取服务器数据
 ---@param whichPlayer userdata
 ---@param key string
