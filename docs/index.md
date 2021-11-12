@@ -28,9 +28,6 @@ h-lua是一套完善的魔兽地图开发集成，更贴近程序开发者的使
 git clone https://github.com/hunzsig-warcraft3/h-lua-sdk
 ```
 
-> <a target="_blank" href="https://gitee.com/hunzsig/h-lua-sdk">可使用码云加速：(Gitee -> h-lua-sdk)</a>
-
-
 > 不推荐使用zip下载，使用git能看到项目的开发历史，在fork的加持下也方便监听项目的更新
 >
 > 会git的自然就懂，而考虑很多人根本不会用git，这里直接演示fork的用法。
