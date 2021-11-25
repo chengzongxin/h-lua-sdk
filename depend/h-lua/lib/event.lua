@@ -793,7 +793,7 @@ end
 ---@param callFunc onPunish | "function(evtData) end"
 ---@return any
 hevent.onPunish = function(whichUnit, callFunc)
-    return hevent.registerEvent(whichUnit, ONST_EVENT.punish, callFunc)
+    return hevent.registerEvent(whichUnit, CONST_EVENT.punish, callFunc)
 end
 
 --- 死亡时
