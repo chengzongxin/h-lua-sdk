@@ -2,7 +2,7 @@
 
 ![image](https://img.shields.io/badge/license-MIT-blue.svg)
 [![image](https://img.shields.io/badge/doc-技术文档-blue.svg)](https://h-lua.hunzsig.org)
-![image](https://img.shields.io/badge/version-2-blue.svg)
+![image](https://img.shields.io/badge/version-lt-blue.svg)
 [![image](https://img.shields.io/badge/author-hunzsig-red.svg)](https://www.hunzsig.com)
 
 [![image](https://img.shields.io/badge/demo-你好世界-orange.svg)](https://github.com/hunzsig-warcraft3/h-lua-sdk-helloworld)
@@ -16,19 +16,35 @@
 不保证完全正确且无bug，如有需要，请自行修改源码进行游戏制作
 ```
 
-## V2版本
+### 作者的话
+
+本项目开发已进入尾声的尾声，而本人也早就在专心开发私人的东西。 所以后续将不会主动更新此项目。
+
+所有代码开源。虽然更新那么久依然到处有需要改进的地方，我随便都能说出几十个地方。如果你对技术对贡献抱有热诚，可以PR贡献你的力量。
+
+一切自愿为原则，强扭的瓜不甜。不要做违背自己欲望的事。
+
+> QQ群：325338043
+
+## LT版本
+
 新版本必须结合sdk项目才能运行，sdk为主，h-lua为辅
 > 详情请看 [h-lua-sdk](https://github.com/hunzsig-warcraft3/h-lua-sdk)
+
 ```
 git clone https://github.com/hunzsig-warcraft3/h-lua-sdk.git
 ```
 
- * [docs]技术文档 https://h-lua.hunzsig.org
- * [demo]你好世界 https://github.com/hunzsig-warcraft3/h-lua-sdk-helloworld
- * [demo]秘地探奇 https://github.com/hunzsig-warcraft3/h-lua-sdk-mysterious-land
- * [test]崩溃压力 https://github.com/hunzsig-warcraft3/h-lua-sdk-crash
+* [docs]技术文档 https://h-lua.hunzsig.org
+* [domo]教学例子大集合 https://github.com/hunzsig-warcraft3/h-lua-sdk-demo
+
+
+* [demo]你好世界 https://github.com/hunzsig-warcraft3/h-lua-sdk-demo/tree/main/地图项目/h-lua-sdk-helloworld
+* [demo]秘地探奇 https://github.com/hunzsig-warcraft3/h-lua-sdk-demo/tree/main/地图项目/h-lua-sdk-mysterious-land
+* [test]崩溃压力 https://github.com/hunzsig-warcraft3/h-lua-sdk-demo/tree/main/地图项目/h-lua-sdk-crash
 
 ## 框架结构如下：
+
 ```
     ├── console - lua运行时的调试
     │── const - 静态值配置
