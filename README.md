@@ -1,19 +1,11 @@
-# H-Lua 魔兽地图 开发集成环境
+# H-Lua SDK
 
 ![image](https://img.shields.io/badge/license-MIT-blue.svg)
 [![image](https://img.shields.io/badge/doc-技术文档-blue.svg)](https://h-lua.hunzsig.org)
 [![image](https://img.shields.io/badge/hLua-lt.alpha-orange.svg)](https://github.com/hunzsig-warcraft3/h-lua)
 [![image](https://img.shields.io/badge/Author-hunzsig-red.svg)](https://www.hunzsig.com)
 
-### 作者的话
-
-本项目开发已进入尾声的尾声，而本人也早就在专心开发私人的东西。 所以后续将不会主动更新此项目。
-
-所有代码开源。虽然更新那么久依然到处有需要改进的地方，我随便都能说出几十个地方。如果你对技术对贡献抱有热诚，可以PR贡献你的力量。
-
-一切自愿为原则，强扭的瓜不甜。不要做违背自己欲望的事。
-
-> QQ群：325338043
+### 本项目开发正式终结，如不更新、不PR、不issues。感兴趣可自行fork维护私人版本。
 
 * [docs]技术文档 https://h-lua.hunzsig.org
 * [domo]教学例子大集合 https://github.com/hunzsig-warcraft3/h-lua-sdk-demo
